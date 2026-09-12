@@ -32,6 +32,9 @@ const games = await getAllGames(getDatabase());
 </Layout>
 ```
 
+- Document the `Props` interface for every reusable component, including what each prop controls and any nullable or optional behavior.
+- Use comments only for intent or non-obvious decisions; avoid comments that repeat the markup or code below them, and remove stale comments when the component changes.
+
 ## Layouts
 
 - Create reusable layout components in `src/layouts/`
